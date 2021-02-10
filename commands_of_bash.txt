@@ -1,0 +1,39 @@
+#This commands are for rovar(roscore will run into rovar)
+#The localhost IP address = IP address for the Master node
+export ROS_MASTER_URI=http://localhost:11311
+#The IP address for the Master node
+export ROS_HOSTNAME=	#IP of rovar
+export ROS_IP=		#IP of rovar
+
+echo "ROVAR"
+echo "ROS_HOSTNAME: "$ROS_HOSTNAME
+echo "ROS_IP: "$ROS_IP
+echo "ROS_MASTER_URI: "$ROS_MASTER_URI
+
+
+
+
+
+#This commands are for Base Station
+export ROS_IP=		#IP of base
+export ROS_HOSTNAME=	#IP of base
+export ROS_MASTER_URI=http://rovar_Ip:11311
+
+echo "BASE"
+echo "ROS_HOSTNAME: "$ROS_HOSTNAME
+echo "ROS_IP: "$ROS_IP
+echo "ROS_MASTER_URI: "$ROS_MASTER_URI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
